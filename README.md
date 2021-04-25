@@ -10,17 +10,15 @@ C++ STL not used.
 What is deque?
 
 ```
- Deque is the same as dynamic arrays with the ability
-to resize itself automatically when an element is
-inserted or deleted, with their storage being handled
+ Deque is the same as dynamic arrays with the ability to resize itself automatically when an element is inserted or deleted, with their storage being handled
 automatically by the container.
 ```
 
 ```
- They support insertion and Deletion from both ends
-in amortized constant time.
+ They support insertion and Deletion from both ends in amortized constant time.
  Inserting and erasing in the middle is linear in time.
 ```
+
 What is expected as solution?
 
 The C++ standard specifies that a legal (i.e., standard- conforming) **implementation of deque must satisfy the following performance requirements:**
